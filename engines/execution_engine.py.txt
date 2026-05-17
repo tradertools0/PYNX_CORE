@@ -1,0 +1,45 @@
+from contracts.models import ExecutionRequest, ExecutionResponse
+
+
+class ExecutionEngine:
+
+    def __init__(self, broker_adapter, logger=None):
+        self.broker_adapter = broker_adapter
+        self.logger = logger
+
+    def execute(self, request: ExecutionRequest) -> ExecutionResponse:
+
+        if self.logger:
+            self.logger.log(f"Received execution request: {request}")
+
+        validation_result = self._validate_request(request)
+
+        if validation_result is not None:
+            return validation_result
+
+        response = self.broker_adapter.execute(request)
+
+        if self.logger:
+            self.logger.log(f"Execution response: {response}")
+
+        return response
+
+    def _validate_request(self, request: ExecutionRequest):
+
+        if request.volume <= 0:
+            return ExecutionResponse(
+                success=False,
+                broker=request.broker,
+                error_code="INVALID_VOLUME",
+                message="Volume must be greater than zero"
+            )
+
+        if not request.symbol:
+            return ExecutionResponse(
+                success=False,
+                broker=request.broker,
+                error_code="INVALID_SYMBOL",
+                message="Symbol is required"
+            )
+
+        return None
