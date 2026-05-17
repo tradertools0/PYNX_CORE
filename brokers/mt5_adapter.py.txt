@@ -1,0 +1,41 @@
+from brokers.base_broker import BaseBroker
+from contracts.models import ExecutionResponse
+
+
+class MT5Broker(BaseBroker):
+
+    def __init__(self):
+        self.connected = False
+
+    def connect(self):
+        self.connected = True
+        print("MT5 broker connected")
+
+    def disconnect(self):
+        self.connected = False
+        print("MT5 broker disconnected")
+
+    def execute(self, request):
+
+        if not self.connected:
+            return ExecutionResponse(
+                success=False,
+                broker="MT5",
+                error_code="NOT_CONNECTED",
+                message="MT5 broker is not connected"
+            )
+
+        print(f"Executing order on MT5: {request.symbol}")
+
+        return ExecutionResponse(
+            success=True,
+            broker="MT5",
+            order_id="SIMULATED_ORDER_001",
+            message="Execution successful"
+        )
+
+    def get_balance(self):
+        return 0.0
+
+    def get_positions(self):
+        return []
