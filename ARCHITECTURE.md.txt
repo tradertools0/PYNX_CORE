@@ -1,0 +1,107 @@
+# PYNX ARCHITECTURE
+
+# CORE PRINCIPLES
+
+- infrastructure first
+- deterministic systems
+- modular isolation
+- event-driven architecture
+- API-first design
+- replayability
+- observability by default
+
+---
+
+# SYSTEM LAYERS
+
+## /apps
+- operator dashboard
+- internal tooling
+- admin systems
+
+## /core
+- shared contracts
+- domain models
+- interfaces
+- event schemas
+
+## /engines
+
+### ExecutionEngine
+### ReplayEngine
+### RiskEngine
+### RecoveryEngine
+
+## /brokers
+
+### AlpacaAdapter
+### BinanceAdapter
+### InteractiveBrokersAdapter
+
+## /middleware
+
+### RiskMiddleware
+### SessionMiddleware
+### ValidationMiddleware
+
+## /storage
+
+### PostgreSQL
+### Event Store
+### Snapshot Store
+
+## /observability
+
+### Logging
+### Metrics
+### Tracing
+### Replay Diagnostics
+
+## /automation
+
+### n8n workflows
+### AI orchestration
+### infra agents
+
+---
+
+# DATA FLOW
+
+Signal
+→ Validation
+→ Risk Middleware
+→ Broker Adapter
+→ Execution Engine
+→ Event Store
+→ Replay Snapshot
+→ Telemetry
+
+---
+
+# CORE PATTERNS
+
+- event sourcing
+- append-only logs
+- stateless adapters
+- immutable execution events
+- deterministic replay
+
+---
+
+# HARD RULES
+
+- no broker logic inside engines
+- no direct DB access from UI
+- no shared mutable state
+- all execution events persisted
+- replay compatibility mandatory
+
+---
+
+# INFRASTRUCTURE CONSTRAINTS
+
+- monolith first
+- modular boundaries enforced
+- PostgreSQL as source of truth
+- async-first architecture
+- telemetry mandatory

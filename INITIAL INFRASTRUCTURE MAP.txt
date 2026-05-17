@@ -1,0 +1,58 @@
+PYNX/
+
+├── apps/
+│   ├── dashboard/
+│   ├── admin/
+│   └── api/
+│
+├── core/
+│   ├── contracts/
+│   ├── events/
+│   ├── models/
+│   ├── schemas/
+│   └── utils/
+│
+├── engines/
+│   ├── execution_engine/
+│   ├── replay_engine/
+│   ├── risk_engine/
+│   └── recovery_engine/
+│
+├── brokers/
+│   ├── alpaca/
+│   ├── binance/
+│   └── base/
+│
+├── middleware/
+│   ├── risk/
+│   ├── validation/
+│   └── session/
+│
+├── storage/
+│   ├── postgres/
+│   ├── migrations/
+│   ├── event_store/
+│   └── snapshots/
+│
+├── observability/
+│   ├── logging/
+│   ├── metrics/
+│   ├── tracing/
+│   └── replay/
+│
+├── automation/
+│   ├── n8n/
+│   ├── ai_agents/
+│   └── workflows/
+│
+├── infrastructure/
+│   ├── docker/
+│   ├── scripts/
+│   └── environments/
+│
+├── docs/
+│   ├── STATE.md
+│   ├── ROADMAP.md
+│   └── ARCHITECTURE.md
+│
+└── tests/

@@ -1,0 +1,108 @@
+Act as a world-class startup strategist, founder coach, and market opportunity analyst.
+
+I want you to deeply analyze my profile and suggest the BEST startup ideas specifically tailored to my strengths, psychology, technical abilities, market positioning, and long-term scalability potential.
+
+Do NOT give generic startup ideas.
+Do NOT suggest crowded beginner ideas unless there is a unique asymmetric edge.
+I want high-leverage, scalable, intelligent business opportunities with strong future potential.
+
+Here is my detailed profile:
+
+- I am a highly technical MT5 / algo trading systems developer.
+- My expertise is not basic indicator coding — I focus on full trading system architecture, execution logic, risk isolation, hedge management, broker adaptation, recovery systems, and live-market robustness.
+- I think in systems, infrastructure, and frameworks rather than small scripts.
+- I have experience debugging real execution behavior, optimizing strategies, and designing scalable EA architectures.
+- I naturally think in modular engineering structures.
+- I already use layered architecture concepts:
+  - Signal engines
+  - Risk engines
+  - Recovery engines
+  - Session/news/spread filters
+  - Logging systems
+  - Broker-specific execution adaptation
+- I prefer building things that are practical, robust, and scalable.
+- I am more interested in deep systems than superficial marketing trends.
+- I can understand trading psychology, execution flaws, liquidity behavior, and strategy weaknesses.
+- I prefer premium/institutional/minimal branding rather than flashy retail style.
+- I enjoy creating infrastructure more than chasing hype.
+- I am interested in AI + fintech + automation.
+- I have already started thinking about building an AI fintech company focused on:
+  - Forex
+  - Crypto
+  - COMEX
+  - MCX
+  - Indian markets
+- I am especially interested in:
+  - Risk engines
+  - Intelligent execution systems
+  - Prop-firm-safe infrastructure
+  - Trade replay/reconstruction systems
+  - Institutional-style trading tools
+  - AI-assisted analytics
+  - Strategy validation systems
+- I prefer B2B, infrastructure, tooling, or system-level products over influencer/content-creator businesses.
+- I want something that can eventually become:
+  - SaaS
+  - infrastructure company
+  - AI platform
+  - institutional tool
+  - fintech product ecosystem
+- I do NOT want low-level freelance dependence forever.
+- I want long-term leverage, positioning, intellectual property, and scalable products.
+- I work well independently and can spend long periods deeply focused on solving technical problems.
+- I naturally think like a systems architect more than a salesman.
+- I value:
+  - robustness
+  - execution quality
+  - scalability
+  - intelligent automation
+  - long-term defensibility
+- I want realistic startup ideas based on actual market opportunities, not fantasy unicorn advice.
+
+Your task:
+
+1. Identify my strongest asymmetric advantages.
+2. Identify which industries/business models best fit my psychology and abilities.
+3. Suggest the TOP 10 startup ideas best aligned with my profile.
+4. Rank them from highest potential to lowest.
+5. For each idea explain:
+   - Why it fits me specifically
+   - Market opportunity
+   - Difficulty level
+   - Time to monetization
+   - Long-term scalability
+   - Competition level
+   - AI leverage potential
+   - Whether it can become a defensible company
+6. Tell me which idea has the highest probability of:
+   - becoming large
+   - staying relevant for 10+ years
+   - fitting my personality
+   - avoiding commoditization
+7. Explain which ideas I should AVOID even if they look attractive.
+8. Compare:
+   - building trading EAs
+   - building fintech infrastructure
+   - building AI risk systems
+   - building analytics platforms
+   - building institutional tooling
+9. Suggest which path can realistically evolve into:
+   - a real company
+   - a small elite technical team
+   - recurring revenue
+   - high-value intellectual property
+10. Finally:
+Create a 3-year strategic roadmap for me:
+- Year 1
+- Year 2
+- Year 3
+
+Be brutally realistic and strategic.
+Think like:
+- Y Combinator partner
+- elite startup founder
+- fintech VC
+- systems architect
+- AI infrastructure strategist
+
+I want deep analysis, not motivational content.

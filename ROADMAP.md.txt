@@ -1,0 +1,84 @@
+# PYNX ROADMAP
+
+# PHASE 0 — FOUNDATION
+Goal:
+Establish deterministic infrastructure core.
+
+Deliverables:
+- monorepo structure
+- infra contracts
+- PostgreSQL schema
+- event logging
+- broker abstraction interfaces
+- replay architecture skeleton
+
+---
+
+# PHASE 1 — EXECUTION CORE
+
+Deliverables:
+- execution engine
+- order lifecycle management
+- broker adapters
+- event persistence
+- execution telemetry
+
+---
+
+# PHASE 2 — REPLAY SYSTEM
+
+Deliverables:
+- deterministic replay engine
+- historical reconstruction
+- event sourcing
+- execution snapshots
+
+---
+
+# PHASE 3 — RISK MIDDLEWARE
+
+Deliverables:
+- risk policies
+- position validation
+- circuit breakers
+- execution guardrails
+
+---
+
+# PHASE 4 — AI ORCHESTRATION
+
+Deliverables:
+- AI workflow coordination
+- anomaly detection
+- infrastructure copilots
+- automation agents
+
+---
+
+# PHASE 5 — PLATFORMIZATION
+
+Deliverables:
+- APIs
+- reusable middleware
+- SDK layer
+- multi-broker orchestration
+
+---
+
+# PHASE 6 — OBSERVABILITY + SCALE
+
+Deliverables:
+- telemetry dashboards
+- metrics pipelines
+- distributed execution
+- infra hardening
+
+---
+
+# LONG-TERM TARGETS
+
+- broker-independent infrastructure
+- execution APIs
+- institutional tooling
+- reusable fintech middleware
+- AI-native execution infrastructure
